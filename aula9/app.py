@@ -1,0 +1,8 @@
+from fastapi import FastAPI
+from .schemas import Message
+
+app = FastAPI()
+
+@app.get("/", response_model=Message)
+def read_root():
+    return {"Message": "Hello World"}  # Corrigido para "Message" com "M" maiúsculo
