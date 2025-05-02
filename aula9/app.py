@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/", response_model=Message)
 def read_root():
-    return {"Message": "Hello World"}  # Corrigido para "Message" com "M" maiúsculo
+    return {"Message": "Hello World"}
