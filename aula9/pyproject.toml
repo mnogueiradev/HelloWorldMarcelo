@@ -3,7 +3,7 @@ name = "aula9"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Lusgago",email = "nogmath185@gmail.com"}
+    {name = "mnogueiradev",email = "nogmath185@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
